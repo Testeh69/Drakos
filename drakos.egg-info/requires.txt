@@ -1,7 +1,0 @@
-typer
-pandas
-numpy
-matplotlib
-scikit-learn
-statsmodels
-rich
