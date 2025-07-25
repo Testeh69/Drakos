@@ -3,6 +3,8 @@ rich>=13.7.0             # jolis affichages en console
 typer>=0.12.3            # CLI moderne (à la place d'argparse)
 pydantic>=2.7.1          # validation et gestion de la config
 python-dotenv>=1.0.1     # chargement des fichiers .env
+pathlib>=1.0.0            # gestion des chemins de fichiers
+
 
 # IA / math / manipulation
 numpy>=1.26.4

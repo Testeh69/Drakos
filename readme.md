@@ -24,7 +24,6 @@ drakos/
 ├── requirements.txt       # Dépendances Python
 ├── README.md              # Ce fichier
 ├── python/                # Code source principal en python          
-├── tests/                 # Tests unitaires
 └── data/                  # Jeux de données (si applicable)
 
 ```
