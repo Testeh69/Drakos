@@ -16,6 +16,8 @@ class Cache:
         Sauvegarde le dataset dans le cache
         """
         path = os.path.join(os.getcwd(), "drk_stgs/config.json")
+        
+
 
         with open(path, 'r', encoding="utf-8") as file_r:
             config = json.load(file_r)
@@ -36,7 +38,11 @@ class Cache:
         """
         Récupére le dataset dans le cache 
         """
-        global file
+        path = os.path.join(os.getcwd(), "drk_stgs/config.json")
+        with open(path, 'r', encoding="utf-8") as file_r:
+            config = json.load(file_r)
+        file = config.get("cache_file", "dataset_cache.pkl")
+
         data = joblib.load(file)
         return data
 

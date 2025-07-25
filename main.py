@@ -16,6 +16,8 @@ app.command()(Vault.birth)
 
 
 app.command()(Exploration.inspect)
+app.command()(Exploration.first_fly)
+
 
 
 

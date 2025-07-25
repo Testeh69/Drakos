@@ -5,14 +5,16 @@ from python.cache import Cache
 import json
 import os
 
+
+""" Classe pour gérer le coffre (vault) des datasets et configurations"""
+
 class Vault:
 
 
     @staticmethod
     def lair(config_path:str = "drk_stgs/config.json"):
         """
-        create the config file with the path of the project put in
-        drk_stgs stand for Drakos Settings
+           Crée un dossier de configuration pour le projet       
 
         """
         if not os.path.exists("drk_stgs"):
