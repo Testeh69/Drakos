@@ -43,6 +43,16 @@ Push (git push origin feature/ma-fonctionnalité)
 
 Ouvre une Pull Request
 
+## 🚀 Installation
+
+```bash
+pip install -r requirements.txt
+or
+
+pip install -e .
+
+
+```
 ## 🪪 Licence
 Ce projet est distribué sous licence MIT — voir le fichier LICENSE pour plus d'infos.
 
